@@ -6,11 +6,10 @@ import React from 'react'
 const Greet = props => {
  return (
  	<div>
-	 	<h1> hello <i>{props.name}</i> as <i>{props.superHero}</i></h1>
+	 	<h1> hello <i>{props.name}</i> as <i> {props.superHero}</i></h1>
 	 	{ props.children }
 	</div>
  )
-
 }
 
 export default Greet

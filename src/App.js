@@ -16,10 +16,11 @@ function App() {
       	<p> Name 2 paragraph</p>
       </Greet>
       <Greet name= "Name 3" superHero= "Super 3"/>
-    	{/* <Welcome /> */}
     	<Hello name= "Thamizh"> 
     		<p> sample paragraph </p>
     	</Hello>
+    	<Welcome name= "Class Name 1"></Welcome>
+    	<Welcome name= "Class Name 2"></Welcome>
     </div>
   );
 }
