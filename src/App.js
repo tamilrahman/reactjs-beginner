@@ -8,14 +8,16 @@ import Message from './components/Message';
 import Counter from './components/Counter';
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
+import EventBind from './components/EventBind'
 
 function App() {
   return (
     <div className="App">
-      <FunctionClick />
-      <ClassClick />
+      <EventBind />
+      {/*<FunctionClick />*/}
+      {/*<ClassClick />*/}
+      {/*<Counter></Counter>*/}
       {/* <Message /> */}
-      <Counter></Counter>
       {/*<Greet name= "Name 2" superHero= "Super 2">
         <p> Name 2 paragraph</p>
       </Greet>*/}
